@@ -11,8 +11,15 @@ th train_ss-infogan.lua
 If the score with respect to a classifier is required, a valid classifier must be trained. Its path can then be specified in the configuration.lua file. If none is available, the metric will not be calculated.
 
 ## Examples
-Taken directly from the paper
 
+### MNIST
+![MNIST 1](images/mnist_1.png) ![MNIST 2](images/mnist_2.png)
+### SVHN
+![SVHN 1](images/svhn_1.png) ![SVHN 2](images/svhn_2.png)
+### CelebA
+![CELEBA 1](images/celeba_1.png) ![CELEBA 2](images/celeba_2.png)
+### CIFAR-10
+![CIFAR-10](images/cifar.png)
 
 ## Dependencies
 
