@@ -1,4 +1,8 @@
-
+-------------------------------------------------
+--
+-- DATASET
+--
+-------------------------------------------------
 
 local tnt = require('torchnet')
 local argcheck = require('argcheck')
@@ -48,11 +52,11 @@ Dataset.__init = argcheck{
     self.unlabelled_prct = unlabelled_prct
 
     if unlabelled_prct == 0 then
-        print('WARNING: No unlabelled data.')
+        print('\n' .. 'WARNING: No unlabelled data.' .. '\n' )
     end
 
     if unlabelled_prct == 1 then
-        print('WARNING: No labelled data.')
+        print('\n' ..'WARNING: No labelled data.' .. '\n' )
     end
 
     local test_inputs
