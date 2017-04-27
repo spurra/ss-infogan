@@ -1,6 +1,6 @@
 # Semi-supervised infoGAN
 
-Official Torch Code for the paper [Guiding InfoGAN with Semi-Supervision](www.google.ch).
+Official Torch Code for the paper *Guiding InfoGAN with Semi-Supervision*
 
 The script implements the training routine for the MNIST dataset. We used a cropped version of size 28x28 which can be found  [here](https://www.dropbox.com/sh/qc62k24u4tf6a9i/AADx-E3rRHoEUOtDj9RmGg6Ca?dl=0).
 
