@@ -4,7 +4,6 @@
 --
 -------------------------------------------------
 
--- TODO REMOVE PATHS
 
 -- Training parameters
 n_epochs = 50
@@ -54,17 +53,17 @@ end
 -- Instance noise parameters
 instance_noise_std = 0
 instance_noise_annealing = 0
--- classifier_path = '../classifier_models/mnist_classifier_convnet.t7'
+classifier_path = ''
 classifier_set = true
 if not classifier_path or classifier_path == '' then
     print('WARNING: No classifier specified. \n')
     classifier_set = false
 end
-dataset_train_path = '../data/mnist/mnist_train.t7'
-dataset_test_path = '../data/mnist/mnist_test.t7'
+dataset_train_path = ''
+dataset_test_path = ''
 samples_dim = {1, 28, 28}
 
-assert(not (dataset_train_path == '' or dataset_test_path == ''), 'One of the data paths is not set')
+assert(not (dataset_train_path == '' or dataset_test_path == ''), 'One of the data paths is not set.')
 
 local function file_exists(name)
    local f=io.open(name,"r")
