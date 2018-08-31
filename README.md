@@ -2,7 +2,7 @@
 
 Official Torch Code for the paper *Guiding InfoGAN with Semi-Supervision*.
 
-The script implements the training routine for the MNIST dataset. We used a cropped version of size 28x28 which can be found  [here](https://www.dropbox.com/sh/qc62k24u4tf6a9i/AADx-E3rRHoEUOtDj9RmGg6Ca?dl=0).
+The script implements the training routine for the MNIST dataset. We used a cropped version of size 28x28 which was taken down. You can find the original MNIST dataset [here](http://yann.lecun.com/exdb/mnist/).
 
 After cloning this repository, download the dataset into the code directory and specify the path to it in the configuration.lua file, alongside any other parameter changes you wish to have. Then execute the training procedure in train_ss-infogan.lua with
 ```bash
